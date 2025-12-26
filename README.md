@@ -19,7 +19,7 @@ A Fabric mod for Minecraft Java Edition that automatically executes commands upo
 
 ## Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.4
+1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.8
 2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
 3. (Optional) Install [Mod Menu](https://modrinth.com/mod/modmenu) for in-game configuration
 4. Download the Quickdraw Commands JAR and place it in your `mods` folder
@@ -68,7 +68,7 @@ The compiled JAR will be in `build/libs/`.
 
 ## Requirements
 
-- Minecraft 1.21.4
+- Minecraft 1.21.8
 - Fabric Loader 0.16.0+
 - Fabric API
 - Java 21+
