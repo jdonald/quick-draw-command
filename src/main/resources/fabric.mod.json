@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "quickdraw-commands",
+  "version": "${version}",
+  "name": "Quickdraw Commands",
+  "description": "Automatically execute commands upon joining a multiplayer server. Perfect for servers using Towny, where you might want to immediately teleport to your home town with /t spawn.",
+  "authors": [
+    "Quickdraw Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/quickdraw/quickdraw-commands",
+    "sources": "https://github.com/quickdraw/quickdraw-commands"
+  },
+  "license": "MIT",
+  "icon": "assets/quickdraw-commands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.quickdraw.QuickdrawCommands"
+    ],
+    "client": [
+      "com.quickdraw.QuickdrawCommandsClient"
+    ],
+    "modmenu": [
+      "com.quickdraw.QuickdrawModMenuIntegration"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
